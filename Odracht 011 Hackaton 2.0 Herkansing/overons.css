@@ -1,0 +1,326 @@
+body{
+    background-color:#5daab0;
+}
+
+.bedrijfsnaam{
+    width: 100%;
+    background-color:#5daab0;
+    height: 40px;
+    margin: auto;
+    display: flex;
+    font-family: sans-serif;
+    font-style: italic;
+    word-spacing: 5px;
+    justify-content: center;
+    color: whitesmoke;   
+}
+
+.slogan{
+    width: 100%;
+    background-color: #5daab0;
+    height: 40px;
+    margin: auto;
+    display: flex;
+    font-family: sans-serif;
+    font-style: italic;
+    padding-bottom: 15px;
+    word-spacing: 5px;
+    justify-content: center;
+    color: whitesmoke;
+
+}
+
+nav{
+    width: 100%;
+    background-color: whitesmoke;
+    height: 40px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    font-size: 20px;
+}
+
+
+.voorstellen{
+    width: 80%;
+    background-image: url(img/mooie-luxe-hotelslaapkamer.jpg);
+    height: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+.wie {
+    width: 80%;
+    color: #5daab0;
+    background-color: whitesmoke;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    border-radius: 15px;
+}
+
+.visie {
+    width: 80%;
+    color: whitesmoke;
+    background-color:#5daab0;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding-left:10px;
+    border-radius: 15px;
+}
+
+h2 {
+    width: 100%;
+    background-color: #28676b;
+    color: whitesmoke;
+    height: 40px;
+    text-align: center;
+    margin: 0px;
+    padding-top: 5px;
+    
+    
+}
+
+.profiel1{
+    width: auto;
+    background-color:#5daab0;
+    height: auto;
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 15px;  
+        
+   }
+
+
+.tekst1{
+    width: auto;
+    height: 150px;
+    color: #5daab0;
+    background-color: whitesmoke;
+    display: flex;
+    padding-left: 10px;
+    border-radius: 15px;
+    margin: 0px;
+    align-items:center;
+}
+
+
+.eigenaar{
+    width: auto;
+    display: flex; 
+    justify-content:space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+              
+}
+
+.chauffeur{
+    width: auto;
+    display: flex; 
+    justify-content:space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.boekhouding{
+    width: auto;
+    display: flex; 
+    justify-content:space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+img{
+    border-radius: 15px;
+    border:solid whitesmoke;
+
+}
+
+footer{
+
+    width: 100%;
+    background-color:#28676b;
+    height: 30px;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: whitesmoke;
+    
+}
+
+/* Responsive layout -vanaf hier voor tablet of computer!!!!!!!!!!!!!!!!!!!! */
+
+
+@media (min-width: 780px) {
+
+    body{
+        background-color:#5daab0;
+    }
+    
+    
+    
+    
+    .bedrijfsnaam{
+        width: 100%;
+        background-color:#5daab0;
+        height: 40px;
+        margin: auto;
+        display: flex;
+        font-family: sans-serif;
+        font-style: italic;
+        word-spacing: 5px;
+        justify-content: center;
+        color: whitesmoke;
+        
+    }
+    
+    .slogan{
+        width: 100%;
+        background-color: #5daab0;
+        height: 40px;
+        margin: auto;
+        display: flex;
+        font-family: sans-serif;
+        font-style: italic;
+        padding-bottom: 15px;
+        word-spacing: 5px;
+        justify-content: center;
+        color: whitesmoke;
+    
+    }
+    
+    nav{
+        width: 100%;
+        background-color: whitesmoke;
+        height: 40px;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        list-style: none;
+        font-size: 20px;
+    }
+    
+    
+    .voorstellen{
+        width: 100%;
+        background-image: url(img/mooie-luxe-hotelslaapkamer.jpg);
+        height: 500px;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        font-family: sans-serif;
+        font-style: italic;
+    }
+    
+    .wie {
+        width: 30%;
+        color: #5daab0;
+        background-color: whitesmoke;
+        height: auto;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        padding-left: 10px;
+        border-radius: 15px;
+    }
+    
+    .visie {
+        width: 30%;
+        color: whitesmoke;
+        background-color:#5daab0;
+        height: auto;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        padding-left:10px;
+        border-radius: 15px;
+    }
+    
+    h2 {
+        width: 100%;
+        background-color: #28676b;
+        color: whitesmoke;
+        height: 40px;
+        text-align: center;
+        margin: 0px;
+        padding-top: 5px;
+        
+        
+    }
+    
+    .profiel1{
+        width: auto;
+        background-color:#5daab0;
+        height: auto;
+        display: flex;  
+        flex-direction: row;
+        margin: 15px;  
+            
+       }
+    
+    .eigenaar{
+        width: 40%;
+        display: flex; 
+        flex-direction: row;
+        justify-content:space-around;
+                  
+    }
+    .tekst1{
+        width: 50%;
+        height: 150px;
+        color: #5daab0;
+        background-color: whitesmoke;
+        display: flex;
+        padding-left: 10px;
+        border-radius: 15px;
+        margin: 0px;
+        align-items:center;
+    }
+    
+    .chauffeur{
+        width: 40%;
+        display: flex; 
+        justify-content:space-around;
+    }
+    .boekhouding{
+        width: 40%;
+        display: flex; 
+        justify-content:space-around;
+    }
+    
+    img{
+        border-radius: 15px;
+        border:solid whitesmoke;
+    
+    }
+    
+    footer{
+    
+        width: 100%;
+        background-color:#28676b;
+        height: 30px;
+        margin: auto;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        color: whitesmoke;
+        
+    }
+    
+
+
+}
+
+
